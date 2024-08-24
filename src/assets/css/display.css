@@ -1,0 +1,14 @@
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+.d-none {
+  display: none !important;
+}

@@ -1,0 +1,181 @@
+.align-baseline {
+    vertical-align: baseline !important;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.align-bottom {
+    vertical-align: bottom !important;
+}
+
+.align-text-bottom {
+    vertical-align: text-bottom !important;
+}
+
+.align-text-top {
+    vertical-align: text-top !important;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.float-start {
+    float: left !important;
+}
+
+.float-end {
+    float: right !important;
+}
+
+.float-none {
+    float: none !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.position-static {
+    position: static !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.position-fixed {
+    position: fixed !important;
+}
+
+.position-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+}
+
+
+
+.text-start {
+    text-align: left !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+    word-break: keep-all !important;
+}
+
+
+.text-indent-1 {
+    text-indent: 1rem;
+}
+
+.text-indent-2 {
+    text-indent: 2rem;
+}
+
+
+
+
+.link-primary {
+    color: #0d6efd !important;
+}
+
+.link-primary:hover,
+.link-primary:focus {
+    color: #0a58ca !important;
+}
+
+.link-secondary {
+    color: #6c757d !important;
+}
+
+.link-secondary:hover,
+.link-secondary:focus {
+    color: #565e64 !important;
+}
+
+.link-success {
+    color: #198754 !important;
+}
+
+.link-success:hover,
+.link-success:focus {
+    color: #146c43 !important;
+}
+
+.link-info {
+    color: #0dcaf0 !important;
+}
+
+.link-info:hover,
+.link-info:focus {
+    color: #3dd5f3 !important;
+}
+
+.link-warning {
+    color: #ffc107 !important;
+}
+
+.link-warning:hover,
+.link-warning:focus {
+    color: #ffcd39 !important;
+}
+
+.link-danger {
+    color: #dc3545 !important;
+}
+
+.link-danger:hover,
+.link-danger:focus {
+    color: #b02a37 !important;
+}
+
+.link-light {
+    color: #f8f9fa !important;
+}
+
+.link-light:hover,
+.link-light:focus {
+    color: #f9fafb !important;
+}
+
+.link-dark {
+    color: #212529 !important;
+}
+
+.link-dark:hover,
+.link-dark:focus {
+    color: #1a1e21 !important;
+}
+
+
+
+.table {
+    margin-block: 0.75rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}

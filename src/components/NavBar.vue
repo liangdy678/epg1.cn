@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/images/bg.png" />
+    <img alt="Vue logo" class="logo" src="@/assets/images/bg.webp" />
     <nav>
       <ul class="navbar">
         <li v-for="v in navitems" :key="v.title" class="nav-item">

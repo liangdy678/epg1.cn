@@ -31,21 +31,7 @@
         在<strong>主项目1</strong>中
         我们初步计划通过家庭<b>三人组（患者与父母）</b>进行外显子测序或全基因组测序，对<b>1万例</b>无获得性病因的癫痫患者进行基因检测。除了科学研究外，基因检测结果将被单独进行分析。我们将会为每位患者提供可能的遗传诊断和管理建议。我们正努力寻找新的基因、新表型以及遗传损伤和临床严重程度间的相互关系。我们将组织数个不同的子课题进行研究，包括但不限于：
         <ol class="sub-list">
-          <li>癫痫脑病-I：Lennox-Gastaut综合征</li>
-          <li>癫痫脑病-II：West综合征</li>
-          <li>癫痫脑病-III：Dravet综合征</li>
-          <li>其他癫痫脑病</li>
-          <li>代谢相关的癫痫</li>
-          <li>线粒体相关的癫痫</li>
-          <li>伴有癫痫的局灶性皮质发育不良</li>
-          <li>伴有神经发育障碍的癫痫</li>
-          <li>特发性全面性癫痫</li>
-          <li>特发性部分性癫痫</li>
-          <li>颞叶癫痫</li>
-          <li>其他的部分性和全面性癫痫</li>
-          <li>热性惊厥</li>
-          <li>热性惊厥附加症</li>
-          <li>成人癫痫</li>
+          <li v-for="p in phenotypes">{{ p.c }}</li>
         </ol>
       </div>
       <div class="flex-col-52 english">
@@ -56,21 +42,7 @@
         phenotypes, and the correlations between genetic impairment and clinical severity. The subtopics of research
         include:
         <ol class="sub-list">
-          <li>Epileptic encephalopathy-I: Lennox-Gastaut Syndrome</li>
-          <li>Epileptic encephalopathy-II: West Syndrome</li>
-          <li>Epileptic encephalopathy-II: Dravet Syndrome</li>
-          <li>Other epileptic encephalopathies</li>
-          <li>Metabolic epilepsies</li>
-          <li>Mitochondrial epilepsy</li>
-          <li>Focal cortical dysplasia with epilepsy</li>
-          <li>Neurodevelopmental disorders with epilepsy</li>
-          <li>Idiopathic generalized epilepsy</li>
-          <li>Idiopathic partial epilepsy</li>
-          <li>Temporal lobe epilepsy</li>
-          <li>Non-syndromic partial and generalized epilepsies</li>
-          <li>Febrile seizures</li>
-          <li>Epilepsy with febrile seizure plus</li>
-          <li>Adult-onset epilepsy</li>
+          <li v-for="p in phenotypes">{{ p.e }}</li>
         </ol>
       </div>
     </div>
@@ -335,6 +307,68 @@ const funds = [
     name: "National Natural Science Foundation of China (Grant no.82301639 to Bin Li) : The Role and mechanism of plexin gene PLXNB3 in idiopathic focal epilepsy"
   },
 ];
+const phenotypes = [
+  {
+    "c": "癫痫脑病-I：Lennox-Gastaut综合征",
+    "e": "Epileptic encephalopathy-I: Lennox-Gastaut Syndrome"
+  },
+  {
+    "c": "癫痫脑病-II：West综合征",
+    "e": "Epileptic encephalopathy-II: West Syndrome"
+  },
+  {
+    "c": "癫痫脑病-III：Dravet综合征",
+    "e": "Epileptic encephalopathy-III: Dravet Syndrome"
+  },
+  {
+    "c": "其他癫痫脑病",
+    "e": "Other epileptic encephalopathies"
+  },
+  {
+    "c": "代谢相关的癫痫",
+    "e": "Metabolic epilepsies"
+  },
+  {
+    "c": "线粒体相关的癫痫",
+    "e": "Mitochondrial epilepsy"
+  },
+  {
+    "c": "伴有神经发育障碍的癫痫",
+    "e": "Epilepsy with neurodevelopmental disorders"
+  },
+  {
+    "c": "特发性全面性癫痫",
+    "e": "Idiopathic generalized epilepsy"
+  },
+  {
+    "c": "特发性部分性癫痫",
+    "e": "Idiopathic partial epilepsy"
+  },
+  {
+    "c": "颞叶癫痫",
+    "e": "Temporal lobe epilepsy"
+  },
+  {
+    "c": "伴有癫痫的局灶性皮质发育不良",
+    "e": "Focal cortical dysplasia with epilepsy"
+  },
+  {
+    "c": "其他特征的部分性癫痫",
+    "e": "Partial (focal) epilepsies of other features"
+  },
+  {
+    "c": "热性惊厥",
+    "e": "Febrile seizures"
+  },
+  {
+    "c": "热性惊厥附加症",
+    "e": "Epilepsy with febrile seizure plus"
+  },
+  {
+    "c": "成人癫痫",
+    "e": "Adult-onset epilepsy"
+  }
+]
 </script>
 <style>
 .about .chinese {
